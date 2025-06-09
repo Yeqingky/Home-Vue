@@ -12,6 +12,11 @@
   {
     "name": "监测",
     "url": "https://status.yeqing.net",
+    "icon": "fa-solid fa-bolt"
+  },
+  {
+    "name": "探针",
+    "url": "https://tz.180280.xyz",
     "icon": "fa fa-chart-line"
   }
 ]
