@@ -10,6 +10,7 @@
   </footer>
 </template>
 
+
 <script setup>
 import { ref } from 'vue';
 import Home from './components/Home.vue';
