@@ -4,11 +4,5 @@
     "icon": "fas fa-envelope",
     "url": "mailto:i@yeqing.net",
     "hoverColor": "#e78b0a"
-  },
-  {
-    "type": "Github",
-    "icon": "fab fa-github",
-    "url": "https://github.com/Yeqingky",
-    "hoverColor": "#6500fc"
   }
 ]
