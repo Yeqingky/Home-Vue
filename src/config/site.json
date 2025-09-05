@@ -8,6 +8,11 @@
     "name": "网盘",
     "url": "https://wpby.180280.xyz/",
     "icon": "fa fa-cloud"
+  },  
+  {
+    "name": "图片API",
+    "url": "https://api.yeqing.net/",
+    "icon": "fa fa-code"
   },
   {
     "name": "监测",
