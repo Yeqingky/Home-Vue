@@ -20,13 +20,13 @@
     "icon": "fa-solid fa-bolt"
   },
   {
+    "name": "QQ群",
+    "url": "https://qm.qq.com/q/iWfBfbhbVY",
+    "icon": "fa-brands fa-qq"
+  },
+  {
     "name": "探针",
     "url": "https://tz.yeqing.net",
     "icon": "fa fa-chart-line"
-  },
-  {
-    "name": "QQ群",
-    "url": "https://qm.qq.com/q/9Z6vZzvw9a",
-    "icon": "fa-brands fa-qq"
   }
 ]
