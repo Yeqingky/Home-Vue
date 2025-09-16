@@ -15,9 +15,9 @@
     "icon": "fa fa-code"
   },
   {
-    "name": "监测",
-    "url": "https://status.yeqing.net",
-    "icon": "fa-solid fa-bolt"
+    "name": "探针",
+    "url": "https://www.komari.top/",
+    "icon": "fa fa-chart-line"
   },
   {
     "name": "QQ群",
@@ -25,8 +25,8 @@
     "icon": "fa-brands fa-qq"
   },
   {
-    "name": "探针",
-    "url": "https://tz.yeqing.net",
-    "icon": "fa fa-chart-line"
+    "name": "监测",
+    "url": "https://status.yeqing.net",
+    "icon": "fa-solid fa-bolt"
   }
 ]
