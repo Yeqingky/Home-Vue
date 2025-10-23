@@ -17,7 +17,7 @@
             <i class="fab fa-github"></i> Github
           </a>
         </div>
-        <div class="update-info">
+        <!-- <div class="update-info">
           <h3>最近更新</h3>
           <ul class="update-list">
             <li v-if="loading" class="loading-item">
@@ -27,7 +27,7 @@
               {{ update.message }} <span v-if="update.date"> ({{ update.date }})</span>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
       <button @click="closeModal" class="close-btn">
         <i class="fas fa-times"></i>
