@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/test",
+        "destination": "https://blog.yeqing.net/",
+        "statusCode": 302
+      }
+    ]
+}
