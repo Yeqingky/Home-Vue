@@ -11,7 +11,7 @@
   },  
   {
     "name": "图片API",
-    "url": "https://api-wiki.yeqing.net/",
+    "url": "https://blog.yeqing.net/acg-api/",
     "icon": "fa fa-code"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "name": "监测",
-    "url": "https://status.yeqing.net",
+    "url": "https://uptime.yppp.net/status/yeqing",
     "icon": "fa-solid fa-bolt"
   }
 ]
