@@ -38,3 +38,7 @@ npm run build
 >点击后自动部署并创建仓库
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/JLinMr/Home-Vue&repository-name=Home-Vue)
+
+### 动态版本
+
+如果你需要支持动态更新配置的版本，可以查看这个分叉项目：[Home-Vue-go](https://github.com/QWQLwToo/Home-Vue-go/)
