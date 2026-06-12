@@ -63,12 +63,14 @@ onMounted(() => {
 }
 
 .site-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 15px;
+  justify-content: center;
 }
 
 .site-box {
+  width: calc((100% - 30px) / 3);
   padding: 30px;
   backdrop-filter: blur(10px);
   border-radius: var(--border-radius);
