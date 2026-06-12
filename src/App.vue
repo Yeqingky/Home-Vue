@@ -15,6 +15,7 @@ import { ref } from 'vue';
 import Home from './components/Home.vue';
 
 const userName = ref(import.meta.env.VITE_APP_USER_NAME);
-const icpNumber = ref(import.meta.env.VITE_APP_ICP_NUMBER);
-const policenumber = ref(import.meta.env.VITE_APP_POLICE_NUMBER);
+const isYeqing = window.location.hostname.endsWith('yeqing.net');
+const icpNumber = isYeqing ? ref(import.meta.env.VITE_APP_ICP_NUMBER) : ref('');
+const policenumber = isYeqing ? ref(import.meta.env.VITE_APP_POLICE_NUMBER) : ref('');
 </script>
