@@ -1,32 +1,12 @@
 [
   {
     "name": "博客",
-    "url": "https://blog.bsgun.cn",
+    "url": "https://blog.yeqing.net",
     "icon": "fa fa-blog"
   },
   {
-    "name": "雨云",
-    "url": "https://www.rainyun.com/Lin_",
-    "icon": "fa fa-cloud "
-  },
-  {
-    "name": "图床",
-    "url": "https://dev.bsgun.cn",
-    "icon": "fa fa-image"
-  },
-  {
-    "name": "封面",
-    "url": "https://cover.bsgun.cn",
-    "icon": "fa fa-panorama"
-  },
-  {
-    "name": "监测",
-    "url": "https://status.bsgun.cn",
-    "icon": "fa fa-chart-line"
-  },
-  {
-    "name": "图标",
-    "url": "https://icon.bsgun.cn/",
-    "icon": "fa fa-icons"
+    "name": "QQ群",
+    "url": "https://qm.qq.com/q/Z9MOe0f88A",
+    "icon": "fa-brands fa-qq"
   }
 ]
