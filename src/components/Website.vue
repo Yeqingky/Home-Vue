@@ -3,7 +3,7 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div v-for="(siteChunk, index) in chunkedSites" :key="index" class="swiper-slide">
-          <div class="site-grid">
+          <div class="site-grid" :class="{ 'site-grid-centered': siteChunk.length < 3 }">
             <div v-for="(site, i) in siteChunk" :key="i" class="site-box" @click="openLink(site.url)">
               <div class="site-content">
                 <i :class="site.icon" aria-hidden="true"></i>
@@ -66,6 +66,15 @@ onMounted(() => {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
+}
+
+.site-grid-centered {
+  grid-template-columns: repeat(2, calc((100% - 30px) / 3));
+  justify-content: center;
+
+  &:has(.site-box:only-child) {
+    grid-template-columns: calc((100% - 30px) / 3);
+  }
 }
 
 .site-box {
